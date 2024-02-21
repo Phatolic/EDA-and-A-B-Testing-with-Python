@@ -3,7 +3,7 @@
 ## Tables of Contents
 - [Project Overview](https://github.com/Phatolic/EDA-and-A-B-Testing-with-Python#project-overview)
 - [EDA](https://github.com/Phatolic/EDA-and-A-B-Testing-with-Python#cleaning-and-eda)
-- [A/B Testing](https://github.com/Phatolic/EDA-and-A-B-Testing-with-Python#)
+- [A/B Testing](https://github.com/Phatolic/EDA-and-A-B-Testing-with-Python#ab-testing)
 
 
 ### Project Overview
