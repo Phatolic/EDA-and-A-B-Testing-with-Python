@@ -1,3 +1,14 @@
+# New York Taxi Rides
+
+## Tables of Contents
+- [Project Overview](https://github.com/Phatolic/EDA-and-A-B-Testing-with-Python#project-overview)
+- [EDA](https://github.com/Phatolic/EDA-and-A-B-Testing-with-Python#cleaning-and-eda)
+- [A/B Testing](https://github.com/Phatolic/EDA-and-A-B-Testing-with-Python#)
+
+
+### Project Overview
+Automatidata is consulting for the New York City Taxi and Limousine Commission (TLC). New York City TLC is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. Automatidata then first perform some EDA and analysis beforehand. Then conduct a hypothesis testing to determine whether there is a statistically significant difference between customers who use credit card and customer who use cash in average taxi fare. 
+
 ```python
 #Import libraries
 import pandas as pd
@@ -732,7 +743,7 @@ avg_cash_tip = df[df['payment_type'] == 2]['tip_amount'].mean()
 print('Avg. cash tip:', avg_cash_tip)
 ```
 
-Avg. cc tip: 2.7298001965280054
+Avg. cc tip: 2.7298001965280054  
 Avg. cash tip: 0.0
     
 
@@ -1745,7 +1756,7 @@ a = df['DOLocationID'].max()  - len(set(df['DOLocationID']))
 print(f'There are {a} numbers not represent a location.')
 ```
 
-    There are 49 numbers not represent a location.
+There are 49 numbers not represent a location.
     
 
 
